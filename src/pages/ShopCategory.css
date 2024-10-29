@@ -1,0 +1,114 @@
+.banner{
+    display: block;
+    margin:30px 170px;
+    width: 82%;
+}
+
+.category-index{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 170px;
+    
+}
+.category-index p span{
+ font-weight:700 ;
+
+}
+.fordropdown{
+    position: relative;
+   
+    
+    
+}
+.list-ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0rem;
+    
+}
+.list-ul li{
+    padding:6px 8px;
+   
+     height: 48px;
+    align-items: center;
+    border-radius: 6px;
+    line-height: 24px;
+
+    white-space: nowrap;
+
+    gap: 10px;
+    
+    letter-spacing: 0.15008px;
+   
+    color: rgb(0, 0, 0);
+    display: flex;
+    cursor: pointer;
+
+}
+.list-ul li p{
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px;
+  color: rgb(0, 0, 0);
+  letter-spacing: 0.15px;
+  font-family: Robo
+
+}
+.category-sort{
+    display: flex;
+    align-self: center;
+     padding: 10px 30px;
+     border-radius:40px;
+     border: 1px solid #888;
+     align-items: center;
+     justify-content: center;
+     width: 90px;
+     gap: 15px;
+     cursor: pointer;
+ }
+.dropdown-list.active{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+border-radius: 12px;
+    list-style: none;
+    gap: 20px;
+    visibility: visible;
+    right: 6px;
+    height: 365px;
+    width: 320px;
+   padding: 8px;
+   font-size: 16px;
+   font-weight: 300;
+   font-family: __Roboto_229ef7, __Roboto_Fallback_229ef7, Helvetica, Arial, sans-serif;
+   transform-origin: 320px 48px;
+
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+   
+    
+}
+.dropdown-list.inactive{
+    visibility: hidden;
+    position: absolute;
+    
+}
+
+
+.category-products{
+    margin: 20px 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+}
+.category-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto;
+    border-radius:75px;
+    background: #ededed;
+    color: #787878;
+    width: 233px;
+    height: 69px;
+    font-weight: 500px;
+}

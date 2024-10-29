@@ -1,0 +1,68 @@
+.politiques{
+    padding: 16px 16px;
+    background-color:gainsboro;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+    
+}
+.politiques li{
+    display: flex;
+    gap: 10px;
+    padding-left: 18px;
+    padding: 5px ;
+}
+.valid{
+   color: rgb(36, 163, 0);
+}
+
+
+
+
+
+
+
+/*.signup{
+   padding: 80px;
+    background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+}
+.signup-input{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    margin: auto;
+    width: 30%;
+    height: 60vh;
+    padding: 50px 30px;
+    gap: 10px;
+}
+.signup-input input{
+    height: 60px;
+    margin:6px;
+    border: 1px solid #ededed;
+    outline: none;
+    font-size:12px;
+    padding-left: 14px;
+} 
+.signup-input button{
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color:tomato;
+    border: none;
+    color: #ededed;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.signup-input span{
+    font-weight: 700;
+    padding-left: 7px;
+   color: tomato;;
+   cursor: pointer;
+}
+.login-check{
+    display: flex;
+    align-items: center;
+    
+}*/

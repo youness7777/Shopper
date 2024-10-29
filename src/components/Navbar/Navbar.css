@@ -1,0 +1,139 @@
+.navbar{
+    display :flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px black;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo p{
+   color: black;
+   font-size: 38px;
+   font-weight: 600;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    font-size: 20px;
+    color:#626262 ;
+    font-weight: 500;
+    
+}
+.nav-list li{
+     display: flex;
+     flex-direction:column ;
+     align-items: center;
+     justify-content: center;
+     gap: 3px;
+     cursor: pointer;
+
+}
+.nav-list hr{
+    background: brown;
+    border: none;
+    height:3px;
+    width:80%;
+    border-radius: 10px;
+
+}
+
+.nav-login-cart{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+.nav-login-cart button{
+    width: 157px;
+    height: 58px;
+    outline: none;
+    border:1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 20px;
+    background: white;
+    cursor: pointer;
+}
+.nav-login-cart button:active{
+    background: gainsboro;
+}
+.count{
+    display: flex;
+    background: red;
+    border-radius: 100%;
+    height: 22px;
+    width: 22px;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    font-size: 14px;
+    margin-bottom:25px ;
+    margin-left: -55px;
+    
+}
+.count2{
+    display: flex;
+    background: red;
+    border-radius: 100%;
+    height: 22px;
+    width: 22px;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    font-size: 14px;
+    margin-bottom:64px;
+    margin-right: 12px;
+    
+}
+
+.notifs.inactive{
+    visibility: hidden;
+    position: absolute;
+}
+.nav-login-cart{
+    position: relative;
+
+}
+.notifs.active{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+border-radius: 12px;
+    list-style: none;
+    gap: 20px;
+    visibility: visible;
+    right: 6px;
+    height: 565px;
+    width: 320px;
+   padding: 18px;
+   font-size: 16px;
+   font-weight: 300;
+   font-family: __Roboto_229ef7, __Roboto_Fallback_229ef7, Helvetica, Arial, sans-serif;
+   transform-origin: 320px 48px;
+
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+   
+}
+.foricon{
+    cursor: pointer;
+    display: flex;
+}
+.count-notif{
+    display: flex;
+    background: red;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    font-size: 12px;
+    margin-left: -16px;
+    margin-top: -2px;
+}

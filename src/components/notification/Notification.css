@@ -1,0 +1,26 @@
+.contenu-notif{
+    
+    margin: 20px 0px;
+    
+}
+.contenu-notif li{
+    padding: 20px 0px;
+    
+    background-color:azure;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.contenu-notif span{
+    color: blue;
+    padding: 10px 5px;
+    margin-left: 24px;
+  
+}
+.pro{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+     justify-content: center;
+     margin-right: 22px;
+     margin-bottom: 5px;
+}

@@ -1,0 +1,60 @@
+.letter{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 40vh;
+    align-items: center;
+    background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+    margin: auto;
+    padding: 0 140px;
+    gap: 30px;
+    margin-top: 80px;
+    justify-content: center;
+    margin-bottom: 160px;
+}
+.letter h1{
+    font-size: 50px;
+    font-weight: 700px;
+    color:rgb(77, 74, 74);
+    
+}
+.letter p{
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(77, 74, 74);
+}
+.effect{
+    display: flex;
+   border-radius: 80px;
+   width: 730px;
+   height: 70px;
+   border: 1px solid #e3e3e3;
+   align-items: center;
+   justify-content: space-between; 
+   background: white;  
+}
+.effect input{
+    width: 500px;
+   border: none;
+   margin-left: 30px;
+   align-items: center;
+   justify-content: center;
+   outline: none;
+   font-size: 16px;
+   font-family: poppins;
+   color: #616161;
+   
+   
+   
+   
+   
+}
+.effect button{
+   width: 210px;
+   height: 70px;
+   border-radius: 80px;
+   background: black;
+   color: white;
+   cursor: pointer;
+   font-size: 16px;
+}

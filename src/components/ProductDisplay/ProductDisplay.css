@@ -1,0 +1,113 @@
+.product-display{
+  display: flex;
+  margin: 0 170px;
+  padding: 30px;
+  font-size: 20px;
+}
+.display-left{
+   display: flex;
+   gap: 10px;
+   cursor: pointer;
+   padding: 10px 50px;
+}
+.img-grid{
+ display: flex;
+ flex-direction: column;
+ gap: 16px;
+ 
+}
+.img-grid img{
+    height: 163px;
+}
+img:hover{
+transform: scale(1.05);
+transition:0.6s;
+}
+.img-main{
+    width: 586px;
+    height: 700px;
+    
+}
+
+.display-right{
+    padding:5px;
+    
+}
+.product-name{
+    font-size: 31px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.star{
+    display: flex;
+    margin-top: 13px;
+    align-items: center;
+    gap: 5px;
+}
+.price{
+    display: flex;
+    margin: 40px 0px;
+    gap: 20px;
+
+}
+.new-price{
+    color: grey;
+    font-weight: 600;
+    font-size: 22px;
+    text-decoration: line-through;
+}
+.old-price{
+    color: #ff6161;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+.description{
+    margin: 50px 0px;
+    
+    font-weight: 400;
+}
+h2{
+    color:dimgray;
+    font-weight: 500;
+}
+.size{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0px;
+}
+.size div{
+    border: 3px solid gainsboro;
+    padding: 10px 20px;
+    color: black;
+    background-color:white;
+    cursor: pointer;
+   
+    
+}
+.size div:hover{
+    background-color: darkgrey;
+}
+button{
+    margin: 20px 0px;
+    width: 190px;
+    height: 60px;
+    color:white;
+    background-color: #ff6161;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition:0.6s;
+}
+.category span{
+    font-weight: 700;
+  
+}
+
+.tags span{
+    font-weight: 700;
+
+}

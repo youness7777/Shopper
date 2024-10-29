@@ -1,0 +1,45 @@
+.cart{
+    margin: 100px 170px;
+}
+.cart-main{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    font-size: 18px;
+    font-weight: 600;
+    color: #454545;
+    padding: 20px 0px;
+    gap: 75px;
+
+}
+.cart hr{ 
+    height: 3px;
+    border: 0;
+    background: #e2e2e2;
+    
+}
+.cartitems{
+  font-size: 17px;
+  font-weight: 400;
+}
+.cartitems .imagepro{
+    height: 62px;
+
+}
+ 
+.delete{
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+.quantity{
+    display: flex;
+    width: 60px;
+    height: 50px;
+    border: 2px solid #ebebeb;
+    align-items: center;
+    justify-content: center;
+}
+.quantity:hover{
+    background: gainsboro;
+}
